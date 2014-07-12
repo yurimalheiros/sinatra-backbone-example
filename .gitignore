@@ -1,0 +1,4 @@
+.DS_Store
+Gemfile.lock
+*.sqlite
+public/bower_components

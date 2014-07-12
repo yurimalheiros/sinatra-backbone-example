@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 14px;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    margin-top: 4px;
+}
+
+#new-note {
+    width: 350px;
+}
+
+#note-list {
+    list-style-type: none;
+}
+
+.note {
+    display: inline-block;
+    padding: 30px 20px 15px 20px;
+    margin: 5px;
+    float: left;
+}
+
+.yellow {
+    background-color: rgba(255, 237, 0, 0.7);
+}
+
+.green {
+    background-color: rgba(0, 215, 0, 0.7);
+}
+
+.actions {
+    margin-top: 20px;
+    font-size: 0.7em;
+}
+
+.edit-input {
+    display: none;
+    font-size: 14px;
+    background-color: rgba(255, 237, 0, 0.7);
+    border: 1px solid black;
+    margin-left: -3px;
+}
+
+.editing .edit-input {
+    display: block;
+}
+
+.editing .note-text {
+    display: none;
+}
+
+#filters {
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+#info {
+    clear: both;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hide {
+    display: none;
+}
